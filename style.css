@@ -1,0 +1,91 @@
+/* 1. Global Styles for Body */
+body {
+    background-color: #f0f8ff; /* Soft light blue */
+    font-family: 'Verdana', sans-serif; /* Modern font style */
+    width: 90%;
+    margin: 0 auto; /* Center the body */
+    text-align: center; /* Center text */
+}
+
+/* 2. Horizontal Rule Styles */
+hr {
+    width: 50%; /* Shorter width */
+    margin: 20px auto; /* Center it */
+    border: 2px dashed #000; /* Thicker dashed line */
+}
+
+/* 3. Profile Picture Styles */
+img {
+    width: 200px; /* Circular width */
+    height: 200px; /* Circular height */
+    border-radius: 50%; /* Makes the image circular */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* 4. Hover Effect for Profile Picture */
+img:hover {
+    width: 220px; /* Grows on hover */
+    height: 220px; /* Grows on hover */
+}
+
+/* 5. Table Styles for Education Page */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapse borders */
+    margin: 20px 0; /* Space around table */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Light border for table */
+}
+
+th, td {
+    padding: 10px; /* Space inside cells */
+    text-align: left; /* Align text to the left */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row color */
+}
+
+/* 6. List Styles for Lists Across the Website */
+ul {
+    list-style-type: circle; /* Circle bullets */
+    padding-left: 20px; /* Padding for bullets */
+    margin-bottom: 20px; /* Space below list */
+}
+
+li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+/* 7. Form Styles for Contact Me Page */
+form {
+    max-width: 500px; /* Limit form width */
+    margin: 20px auto; /* Center form */
+    padding: 20px; /* Space inside form */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background for form */
+}
+
+input, textarea {
+    width: 100%; /* Full width for inputs */
+    padding: 10px; /* Space inside inputs */
+    margin: 10px 0; /* Space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    padding: 10px 20px; /* Space around button */
+    cursor: pointer; /* Pointer cursor */
+    border-radius: 5px; /* Rounded corners */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
